@@ -21,7 +21,7 @@ const calcular = () => {
 
 const atualizarDisplay = (texto) =>{
   if (novoNumero){
-    display.textContent = texto.toLocaleString('BR'); //+= contatena o numero, ou seja, adiciona um s/ substituir o outro
+    display.textContent = texto.toLocaleString('BR'); //+= concatena o numero, ou seja, adiciona um s/ substituir o outro
     novoNumero = false;
   }else{
       display.textContent += texto;
